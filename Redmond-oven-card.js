@@ -767,6 +767,6 @@ window.customCards = window.customCards || [];
 window.customCards.push({
   type: CARD_TAG,
   name: "Redmond Oven Card",
-  description: "Карточка управления умной духовкой Redmond RO-5707S/5717S/5727S: программы, температура, время готовки, отложенный старт, сторона нагрева.",
+  description: "Карточка управления умной духовкой Redmond: программы, температура, время готовки, отложенный старт, сторона нагрева.",
   preview: false,
 });
