@@ -15,7 +15,7 @@ jobs:
           # A space seperated list of ignored checks, for valid entries see README.md
           ignore: # optional, default is 
           # The category of repository
-          category: 
+          category: plugin
           # The full name of repository
           repository: # optional
           # Post a comment to the PR with the result of the checks
