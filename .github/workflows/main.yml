@@ -21,4 +21,4 @@ jobs:
           # Post a comment to the PR with the result of the checks
           comment: # optional, default is true
           # Personal access token (PAT)
-          github_token: # optional, default is ${{ github.token }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
