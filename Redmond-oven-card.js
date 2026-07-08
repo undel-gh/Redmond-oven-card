@@ -14,7 +14,7 @@ const CARD_TAG = "pechurka-oven-card";
 const EDITOR_TAG = "pechurka-oven-card-editor";
 
 const DEFAULT_CONFIG = {
-  title: "Печурка",
+  title: "Духовка",
   state_entity: "sensor.pechurka_state",
   program_entity: "select.r4s01_cooker_program",
   heat_mode_entity: "select.pechurka_heat_mode",
