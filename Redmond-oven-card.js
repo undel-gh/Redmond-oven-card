@@ -1,6 +1,6 @@
 /**
- * Pechurka Oven Card
- * Кастомная карточка Lovelace для умной духовки "Печурка" (Home Assistant)
+ * Redmond Oven Card
+ * Кастомная карточка Lovelace для умной духовки "Redmond RO-5707S/5717S/5727S" (Home Assistant)
  *
  * Особенности реализации:
  *  - DOM карточки строится ОДИН РАЗ (при первом получении hass), дальше только
