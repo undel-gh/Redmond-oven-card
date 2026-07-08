@@ -10,8 +10,8 @@
  *    живут независимо от повторных вызовов сеттера hass и не сбрасываются.
  */
 
-const CARD_TAG = "pechurka-oven-card";
-const EDITOR_TAG = "pechurka-oven-card-editor";
+const CARD_TAG = "Redmond-oven-card";
+const EDITOR_TAG = "Redmond-oven-card-editor";
 
 const DEFAULT_CONFIG = {
   title: "Духовка",
@@ -766,7 +766,7 @@ if (!customElements.get(EDITOR_TAG)) {
 window.customCards = window.customCards || [];
 window.customCards.push({
   type: CARD_TAG,
-  name: "Pechurka Oven Card",
-  description: "Карточка управления умной духовкой Печурка: программы, температура, время готовки, отложенный старт, сторона нагрева.",
+  name: "Redmond Oven Card",
+  description: "Карточка управления умной духовкой Redmond RO-5707S/5717S/5727S: программы, температура, время готовки, отложенный старт, сторона нагрева.",
   preview: false,
 });
