@@ -4,7 +4,7 @@
 ![GitHub release](https://img.shields.io/github/v/release/undel-gh/Redmond-oven-card)
 ![License](https://img.shields.io/github/license/undel-gh/Redmond-oven-card)
 
-Кастомная карточка Lovelace для Home Assistant для управления умной духовкой **Redmond («Печурка»)**, подключённой через шлюз `r4s0.Gate`.
+Кастомная карточка Lovelace для Home Assistant для управления умной духовкой **Redmond (RO-5707S/5717S/5727S)**, подключённой через шлюз `ESP32-R4sGate-for-Redmond`.
 
 Карточка объединяет в едином интерфейсе управление стороной нагрева, выбор программы приготовления, температуру, время готовки, отложенный старт и отображение текущего состояния духовки — без необходимости собирать несколько стандартных карточек entities/tile вручную.
 
@@ -95,7 +95,7 @@ rssi_entity: sensor.r4s01_cooker_rssi
 ## Требования
 
 - Home Assistant 2023.x и новее.
-- Духовка Redmond («Печурка»), подключённая через шлюз `r4s0.Gate` и предоставляющая соответствующие сущности `number`, `select`, `switch`, `sensor`.
+- Духовка Redmond (RO-5707S/5717S/5727S), подключённая через шлюз `ESP32-R4sGate-for-Redmond` и предоставляющая соответствующие сущности `number`, `select`, `switch`, `sensor`.
 
 ## Известные особенности реализации
 
